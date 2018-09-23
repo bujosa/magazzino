@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Domain Entity Layer", "1. Domain Entity Layer", "{AEA3E818-43C3-4D71-9121-E499E586E4F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Repository Layer", "2. Repository Layer", "{FCE64375-85A8-4616-A35D-5C5B731AA92C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Service Layer", "3. Service Layer", "{C7407862-9DA2-46C2-916F-A19DF6E38E7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation Layer", "4. Presentation Layer", "{69C2E62A-4801-4861-8255-E89A01B4FD8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Magazzino.Data", "Magazzino.Data\Magazzino.Data.csproj", "{A78B26C9-192E-4F1F-87D7-BF74D5E8999D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagazzinoWeb", "MagazzinoWeb\MagazzinoWeb.csproj", "{281FB58D-EBAC-4B5B-989C-E7AE769D1A37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. Unit Test Layer", "5. Unit Test Layer", "{B4A88387-5FB4-49E3-AFD1-86485415AA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magazzino.Models", "Magazzino.Models\Magazzino.Models.csproj", "{4DF7C8EE-30DF-4219-8072-3DEBCAEB716E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magazzino.Repository", "Magazzino.Repository\Magazzino.Repository.csproj", "{0B8B8C9C-25B9-4DD1-84B2-DA02AB7DF548}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A78B26C9-192E-4F1F-87D7-BF74D5E8999D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A78B26C9-192E-4F1F-87D7-BF74D5E8999D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A78B26C9-192E-4F1F-87D7-BF74D5E8999D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A78B26C9-192E-4F1F-87D7-BF74D5E8999D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281FB58D-EBAC-4B5B-989C-E7AE769D1A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281FB58D-EBAC-4B5B-989C-E7AE769D1A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281FB58D-EBAC-4B5B-989C-E7AE769D1A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281FB58D-EBAC-4B5B-989C-E7AE769D1A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF7C8EE-30DF-4219-8072-3DEBCAEB716E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF7C8EE-30DF-4219-8072-3DEBCAEB716E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF7C8EE-30DF-4219-8072-3DEBCAEB716E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF7C8EE-30DF-4219-8072-3DEBCAEB716E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B8B8C9C-25B9-4DD1-84B2-DA02AB7DF548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8B8C9C-25B9-4DD1-84B2-DA02AB7DF548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8B8C9C-25B9-4DD1-84B2-DA02AB7DF548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8B8C9C-25B9-4DD1-84B2-DA02AB7DF548}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A78B26C9-192E-4F1F-87D7-BF74D5E8999D} = {AEA3E818-43C3-4D71-9121-E499E586E4F6}
+		{281FB58D-EBAC-4B5B-989C-E7AE769D1A37} = {69C2E62A-4801-4861-8255-E89A01B4FD8F}
+		{4DF7C8EE-30DF-4219-8072-3DEBCAEB716E} = {AEA3E818-43C3-4D71-9121-E499E586E4F6}
+		{0B8B8C9C-25B9-4DD1-84B2-DA02AB7DF548} = {FCE64375-85A8-4616-A35D-5C5B731AA92C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92564E53-97D8-49A9-BC99-B9F1E1E63C23}
+	EndGlobalSection
+EndGlobal
