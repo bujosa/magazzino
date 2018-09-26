@@ -19,5 +19,6 @@ namespace Magazzino.Data.Entities
         public String Status { get; set; }
         public DateTime ShoppingDate { get; set; }
         public DateTime ArrivalDate { get; set; }
+        public string Transation { get; set; }
     }
 }

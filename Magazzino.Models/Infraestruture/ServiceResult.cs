@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Magazzino.Models.Infraestruture
 {
-    class ServiceResult
+   public class ServiceResult
     {
         public Boolean Success { get; set; }
         public dynamic ResultObject { get; set; }

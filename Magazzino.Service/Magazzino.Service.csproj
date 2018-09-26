@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Infraestructure\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="2.2.0-preview2-35157" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Magazzino.Data\Magazzino.Data.csproj" />
+    <ProjectReference Include="..\Magazzino.Helpers\Magazzino.Helpers.csproj" />
+    <ProjectReference Include="..\Magazzino.Models\Magazzino.Models.csproj" />
+    <ProjectReference Include="..\Magazzino.Repository\Magazzino.Repository.csproj" />
+    <ProjectReference Include="..\Magazzino.web\Magazzino.web.csproj" />
+  </ItemGroup>
+
+</Project>

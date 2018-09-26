@@ -20,9 +20,12 @@ namespace Magazzino.Models
 		public String LocationClientM { get; set; }
 		[MaxLength(50)]
 		public String StatusM { get; set; }
-		[MaxLength(50)]
+		
 		public DateTime ShoppingDateM { get; set; }
-		[MaxLength(50)]
+		
 		public DateTime ArrivalDateM { get; set; }
+
+        [MaxLength(40)]
+        public string TransationM { get; set; }
 	}
 }
