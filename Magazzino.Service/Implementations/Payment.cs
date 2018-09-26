@@ -1,11 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using 
+using Magazzino.Repository.Framework;
+using Microsoft.EntityFrameworkCore;
+using Magazzino.Repository;
+
+
 
 namespace Magazzino.Service.Implementations
 {
-    public class Payment
+    public static class Payment
     {
+        
     }
 }
