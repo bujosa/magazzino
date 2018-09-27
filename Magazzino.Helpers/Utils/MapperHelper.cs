@@ -1,5 +1,4 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using Magazzino.Data.Entities;
 using Magazzino.Models;
 

@@ -12,4 +12,12 @@
     <PackageReference Include="PayPal" Version="2.0.0-rc2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Magazzino.Data\Magazzino.Data.csproj" />
+    <ProjectReference Include="..\Magazzino.Helpers\Magazzino.Helpers.csproj" />
+    <ProjectReference Include="..\Magazzino.Models\Magazzino.Models.csproj" />
+    <ProjectReference Include="..\Magazzino.Repository\Magazzino.Repository.csproj" />
+    <ProjectReference Include="..\Magazzino.Service\Magazzino.Service.csproj" />
+  </ItemGroup>
+
 </Project>

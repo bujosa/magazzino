@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Magazzino.Repository.Framework;
+using Magazzino.Repository.FrameWork;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -31,6 +33,8 @@ namespace Magazzino.web
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+            //services.AddTransient<IUserService, UserService>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
